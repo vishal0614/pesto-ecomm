@@ -53,21 +53,19 @@ The authentication mechanism in this project utilizes the Passport middleware fo
 
 ### Route Lists
 -------------------------------------
-| Method | Route          | Module  |
+1) POST    /auth/register          
+2) POST    /auth/login     
+3) GET     /auth/user              
 -------------------------------------
-| POST   | /auth/register |         |
-| POST   | /auth/login    |  Auth   |
-| GET    | /auth/user     |         |
+1) GET     /products              
+2) GET     /products/:id           
+3) POST    /products/add 
+4) PUT     /products/:id          
+5) DELETE  /products/:id          
 -------------------------------------
-| GET    | /products      |         |
-| GET    | /products/:id  |         | 
-| POST   | /products/add  | Product |
-| PUT    | /products/:id  |         |
-| DELETE | /products/:id  |         |
--------------------------------------
-| POST   | /orders/place  |         |
-| GET    | /orders/:id    |         |
-| PUT    | /orders/:id    |  Order  |
-| GET    | /orders        |         |
-| DELETE | /orders/:id    |         |
+1) POST    /orders/place    
+2) GET     /orders/:id      
+3) PUT     /orders/:id      
+4) GET     /orders          
+5) DELETE  /orders/:id      
 -------------------------------------
